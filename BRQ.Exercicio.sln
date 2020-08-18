@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRQ.Exercicio.Domain", "src\BRQ.Orientacao.Domain\BRQ.Exercicio.Domain.csproj", "{B0D125B7-8411-460F-AAE6-0767A71D9345}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRQ.Exercicio.Tests", "tests\BRQ.Orientacao.Tests\BRQ.Exercicio.Tests.csproj", "{18085F33-D510-4752-80FC-BFACE96F0C9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRQ.Exercicio.Presentation", "src\BRQ.Orientacao.Presentation\BRQ.Exercicio.Presentation.csproj", "{B827E436-B10A-4989-A780-1AFBC15B3946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRQ.Exercicio.Console", "src\BRQ.Orientacao.Console\BRQ.Exercicio.Console.csproj", "{70DE3CDA-98B7-4656-BED3-B1FF4BBCE452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFF79216-9BFE-44C1-AF2D-F578B23341CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{80E5D9AD-82BD-4435-A6DF-62FA7DC298E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D125B7-8411-460F-AAE6-0767A71D9345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D125B7-8411-460F-AAE6-0767A71D9345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D125B7-8411-460F-AAE6-0767A71D9345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D125B7-8411-460F-AAE6-0767A71D9345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18085F33-D510-4752-80FC-BFACE96F0C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18085F33-D510-4752-80FC-BFACE96F0C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18085F33-D510-4752-80FC-BFACE96F0C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18085F33-D510-4752-80FC-BFACE96F0C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B827E436-B10A-4989-A780-1AFBC15B3946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B827E436-B10A-4989-A780-1AFBC15B3946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B827E436-B10A-4989-A780-1AFBC15B3946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B827E436-B10A-4989-A780-1AFBC15B3946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DE3CDA-98B7-4656-BED3-B1FF4BBCE452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DE3CDA-98B7-4656-BED3-B1FF4BBCE452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DE3CDA-98B7-4656-BED3-B1FF4BBCE452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DE3CDA-98B7-4656-BED3-B1FF4BBCE452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0D125B7-8411-460F-AAE6-0767A71D9345} = {CFF79216-9BFE-44C1-AF2D-F578B23341CB}
+		{18085F33-D510-4752-80FC-BFACE96F0C9E} = {80E5D9AD-82BD-4435-A6DF-62FA7DC298E2}
+		{B827E436-B10A-4989-A780-1AFBC15B3946} = {CFF79216-9BFE-44C1-AF2D-F578B23341CB}
+		{70DE3CDA-98B7-4656-BED3-B1FF4BBCE452} = {CFF79216-9BFE-44C1-AF2D-F578B23341CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0888173B-AB3A-4DA0-9C46-1A138C52A02E}
+	EndGlobalSection
+EndGlobal

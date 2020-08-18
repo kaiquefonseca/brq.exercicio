@@ -3,3 +3,16 @@
 ################################################################################
 
 /.vs/BRQ.Exercicio/v16
+/.vs/BRQ.Orientacao/v16/TestStore/0
+/.vs/BRQ.Exercicio/config
+/.vs
+/src/BRQ.Orientacao.API/obj
+/src/BRQ.Orientacao.API/bin/Debug/netcoreapp3.1
+/src/BRQ.Orientacao.Console/bin/Debug/netcoreapp3.1
+/src/BRQ.Orientacao.Console/obj
+/src/BRQ.Orientacao.Domain/bin/Debug
+/src/BRQ.Orientacao.Domain/obj
+/src/BRQ.Orientacao.Presentation/bin/Debug/netcoreapp3.1
+/src/BRQ.Orientacao.Presentation/obj
+/tests/BRQ.Orientacao.Tests/bin/Debug/netcoreapp3.1
+/tests/BRQ.Orientacao.Tests/obj
